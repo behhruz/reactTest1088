@@ -1,26 +1,33 @@
-import logo from "./assets/Btn.png"
-import logo1 from "./assets/Btn (1).png"
+import img1 from "./assets/Step number.png"
+import img2 from "./assets/Step number (1).png"
+import img3 from "./assets/Step number (2).png"
+import img4 from "./assets/Step number (3).png"
 
 const Nur = () => {
     return (
-        <div className="mx-[240px] flex flex-col gap-[58px]">
-            <p className="text-[55px] font-[500] font-Jost text-[#333333]">Часто задаваемые вопросы</p>
-            <div className="flex justify-between">
-                <p className="font-[400] text-[30px] text-[#333333]">Правила покупки недвижимости иностранцами</p>
-                <img src={logo} alt="" />
-            </div>
-            <p className="font-[400] text-[20px] text-[#333333] w-[90%]">Правила покупки недвижимости иностранцами зависят от страны. Обычно существуют требования и ограничения. Во многих странах иностранцы могут приобретать недвижимость только с разрешения местных властей или по специальной лицензии. Ограничения могут касаться типа недвижимости: например, иностранцы могут иметь право на покупку только жилых объектов, а не коммерческих или земельных. Также иностранцы должны иметь определенный юридический статус, как, например, резиденты или инвесторы. Часто требуется подтверждение финансовой состоятельности и источников доходов, а также могут быть дополнительные налоги или сборы при покупке. Процесс покупки может включать юридические и административные шаги, такие как нотариальное оформление и регистрация права собственности. В некоторых странах существуют ограничения по регионам или зонам, где иностранцы могут приобретать недвижимость. Для точной информации лучше обратиться к местным юридическим специалистам или агентствам недвижимости</p>
-            <div className="flex justify-between">
-                <p className="font-[400] text-[30px] text-[#333333]">Минимальная сумма инвестиций</p>
-                <img src={logo1} alt="" />
-            </div>
-            <div className="flex justify-between">
-                <p className="font-[400] text-[30px] text-[#333333]">Процедура оформления сделки</p>
-                <img src={logo1} alt="" />
-            </div>
-            <div className="flex justify-between">
-                <p className="font-[400] text-[30px] text-[#333333]">Стоимость обслуживания и коммунальные платежи</p>
-                <img src={logo1} alt="" />
+        <div className="mx-[5%]">
+            <p className="text-[55px] font-[500]">Процесс покупки недвижимости</p>
+            <div className="flex mt-[120px] gap-[72px]">
+                <div className="w-[20%] flex flex-col gap-[35px]">
+                    <img className="w-[100px] h-[100px]" src={img1} alt="" />
+                    <p className="text-[30px] font-[500] font-Jost">Консультация и подбор объекта</p>
+                    <p className="text-[20px] text-[#858585] font-[400] font-Jost w-[350px]">Организуем просмотры объектов и помогаем вам оценить их преимущества и недостатки</p>
+                </div>
+                <div className="w-[20%] flex flex-col gap-[35px]">
+                    <img className="w-[100px] h-[100px]" src={img2} alt="" />
+                    <p className="text-[30px] font-[500] font-Jost">Юридическое сопровождение</p>
+                    <p className="text-[20px] text-[#858585] font-[400] font-Jost w-[350px]">Обеспечение соблюдения законодательства и защиты интересов клиента</p>
+                </div>
+                <div className="w-[20%] flex flex-col gap-[35px]">
+                    <img className="w-[100px] h-[100px]" src={img3} alt="" />
+                    <p className="text-[30px] font-[500] font-Jost">Оформление сделки</p>
+                    <p className="text-[20px] text-[#858585] font-[400] font-Jost w-[350px]">Подготовка и подписание всех необходимых документов. Осуществление  оплаты</p>
+                </div>
+                <div className="w-[20%] flex flex-col gap-[35px]">
+                    <img className="w-[100px] h-[100px]" src={img4} alt="" />
+                    <p className="text-[30px] font-[500] font-Jost w-[350px]">Услуги по управлению недвижимостью</p>
+                    <p className="text-[20px] text-[#858585] font-[400] font-Jost w-[350px]">Наши специалисты обеспечат полный спектр услуг по управлению вашим объектом</p>
+                </div>
             </div>
         </div>
     )
