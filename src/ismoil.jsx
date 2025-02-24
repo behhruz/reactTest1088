@@ -10,7 +10,7 @@ import cardtri from './assets/ismoilcardtri.png'
 const Ismoil = () => {
     return (
         <div className="flex flex-col mt-[150px] ">
-            <div className="flex self-center w-[1080px] h-[550px] bg-[#EDF3F5] justify-between items-start">
+            <div className="flex max-[1130px]:flex-col max-[1130px]:items-center max-[1130px]:w-[70%] max-[1130px]:h-full pb-[30px] self-center w-[1080px] h-[550px] bg-[#EDF3F5] justify-between items-start">
                 <div className="left flex flex-col font-[Jost] justify-center items-start py-[45px] pl-[45px] text-[#333333] text-[40px] font-[500] w-[500px]">
                     <h2>Остались вопросы? Свяжитесь с нами</h2>
                     <div className="inputs gap-y-[22.5px] mt-[37.5px] flex flex-col justify-center items-start">
@@ -24,9 +24,9 @@ const Ismoil = () => {
                 </div>
                 <img className='w-[441px] h-[550px]' src={ismoil} alt="" />
             </div>
-            <div className="ismoiltwo flex flex-col mt-[150px] w-[1080px] self-center">
-                <h2 className='text-[45px] text-[#333333] font-[Jost] font-[500]'>Блог</h2>
-                <div className="cards2 mt-[22.5px] flex justify-between items-center ">
+            <div className="ismoiltwo max-[1130px]:justify-center flex flex-col mt-[150px] max-[1100px]:w-[100%] w-[1080px] self-center">
+                <h2 className='text-[45px] max-[1130px]:text-center  text-[#333333] font-[Jost] font-[500]'>Блог</h2>
+                <div className="cards2 max-[1130px]:items-center gap-[15px] max-[1130px]:justify-center self-center max-[1130px]:gap-y-[40px] max-[1130px]:flex-wrap max-[1130px]:w-[70%] max-[1130px]:h-full mt-[22.5px] flex justify-between items-center ">
                     <div className="card222 flex flex-col items-start">
                         <img src={card} className='w-[350.25px]' alt="" />
                         <p className='text-[18px] mt-[15px] font-[500] font-[Jost] w-[350px]'>Тенденции и прогнозы рынка недвижимости на 2024 год</p>
@@ -43,8 +43,8 @@ const Ismoil = () => {
                 </div>
                 <button className='w-[167.25px] h-[37.5px] mt-[45px] self-center bg-[#E1AF93] text-white text-[13.5px] font-[600] font-[Jost]'>Все статьи</button>
             </div>
-            <footer className='w-[1080px] mt-[150px] self-center'>
-                <div className="upfooter flex py-[37.5px] border-b border-[#EAEAEA] justify-between items-center">
+            <footer className='w-[1080px] max-[1100px]:w-[100%] mt-[150px] self-center'>
+                <div className="upfooter max-[768px]:gap-0 max-[768px]:justify-between max-[768px]:px-[16px] max-[1130px]:justify-center max-[1130px]:gap-[33%] flex py-[37.5px] border-b border-[#EAEAEA] justify-between items-center">
                     <img src={logo} alt="" />
                     <div className='flex justify-center items-center gap-[20px]'>
                         <img src={inst} alt="" />
@@ -54,7 +54,7 @@ const Ismoil = () => {
                         <img src={inst} alt="" />
                     </div>
                 </div>
-                <div className="footermid border-b items-center border-[#EAEAEA] py-[37.5px] flex gap-[138px]">
+                <div className="footermid max-[768px]:gap-0 max-[768px]:justify-between max-[768px]:px-[16px] border-b max-[1130px]:justify-center items-center border-[#EAEAEA] py-[37.5px] flex gap-[138px]">
                     <div className='flex flex-col justify-start'>
                         <p className='text-[18px] font-[Jost] font-[500] text-[#333333]'>Услуги</p>
                         <ul className='mt-[12px] flex flex-col justify-start gap-y-[4px] text-[15px] font-[400] font-[Jost]'>
@@ -89,7 +89,7 @@ const Ismoil = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="footerbottom flex justify-between items-center py-[10px]">
+                <div className="footerbottom max-[768px]:gap-0 max-[768px]:justify-between max-[768px]:px-[16px] max-[1130px]:justify-center max-[1130px]:gap-[24%] flex justify-between items-center py-[10px]">
                     <a className='text-[#B3B3B3] text-[16px] font-[400] font-[Jost]' href="">2024 © RMC De Luxe real estate LLC. Все права защищены</a>
                     <img src={logotwo} alt="" />
                 </div>
