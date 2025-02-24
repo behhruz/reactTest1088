@@ -5,6 +5,7 @@ import FirstSection from "./FirstSection"
 import { useState } from 'react'
 
 import Sardor from './components/Sardor' // ✅ Правильный импорт
+import Shodi from "./main/Shodi"
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <FirstSection />
 
       <Sardor />
+      <Shodi />
     </>
   )
 }
